@@ -1,0 +1,13 @@
+To create any HTML file we use .html extention.
+BoilerPlate(html structure) : shift+1 then enter
+
+What is meta Tags?
+Meta tag has three useful use cases:
+--> It is used to encode HTML to the browser.
+--> It is used for SEO (Search Engine Optimisation).
+--> For responsivness Laptop--Tablet--Phone easily adjustable.
+
+Whenever you are adding any image,audio or video to your page always save it in your folder.
+
+How we can add any icon to our title?
+link tag use karte h.
