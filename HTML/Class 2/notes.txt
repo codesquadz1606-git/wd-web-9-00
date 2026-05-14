@@ -1,0 +1,23 @@
+Topic 1: Heading tags
+Their are 6 type of heading tags:
+h1 to h6
+
+Topic 2: Media Tags : Where we display some multimedia on our page.
+img , audio , video
+
+Whatever asset we are using in the web page will be inside our folder.
+
+Topic 3 : What is the break tags?
+br tag : break line tag
+hr tag : horizontal line tag
+
+&NBSP; = 1 SPACE
+
+Topic 4: What is marquee tag?
+
+Topic 5 : Linking & Iframe
+Linking : It means link two or more pages together or any url.
+
+a tag : anchor tag
+
+Iframe : for embedding map & youtube video.
