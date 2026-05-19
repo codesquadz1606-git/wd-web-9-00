@@ -1,0 +1,10 @@
+What is List?
+List are of two types:
+1. Ordered List : Which has some order like : 1,A,a,I,i
+    This is denooted by ol tag.
+    List Item is denoted by li
+
+2. Unordered List : Which has no order : Square , Disc, Circle
+    This is denoted by ul tag.
+
+Nested List
