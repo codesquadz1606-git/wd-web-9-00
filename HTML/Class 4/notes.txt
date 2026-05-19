@@ -1,0 +1,10 @@
+What is Table tag?
+A collection of row & column is known as table tag.
+
+table tag --> tr tag(table row) --> td/th tag (table data / table head)
+
+cellspacing: Space b/w outer cell & inner cell 
+cellpadding: Space b/w cell & content
+
+row merge : rowspan (vertical merge)
+column merge : colspan (horizontal Merge).
