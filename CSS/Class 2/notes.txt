@@ -1,0 +1,12 @@
+Font
+Backgrounds
+Display
+
+Displays are of 5 types :
+inline, inline-block , block , flex, grid
+
+In our HTML we have two type of tags :
+inline tag : It means where it contain only the limited space.
+block tag : it means it contain whole line space.
+
+1 rem = 16 px
