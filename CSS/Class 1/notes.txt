@@ -1,0 +1,22 @@
+CSS : Cascading StyleSheet
+
+Css are of three types:
+Inline : Here we Write css within HTML tag.
+Internal : Here we write css within HTML file.
+External : Here we have to create a external Css file and link with our HTML file.
+
+Selector of CSS
+4 types:
+a. universal which is denoted by *
+b. id which is denoted by #
+c. class which is denoted by .
+d. tag which is denoted by tagname.
+
+Border Property
+width
+style
+color
+
+border-curveness : border-radius
+
+Font Property
