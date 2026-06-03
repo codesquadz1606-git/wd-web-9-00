@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        padding: 90px;
+
+        /* transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out; */
+        
+        transition: all 2s ease-in-out;
+    }
+    
+    .box:hover{
+        background-color: green;
+        border-radius: 50%;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .box1{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .box1:hover{
+        /* transform: rotate(135deg); */
+        transform: scale(1.2);
+        /* transform: skew(-45deg); */
+    }
+
+    .container{
+        display: flex;
+    }
+
+    .b{
+        width: 300px;
+        height: 400px;
+
+        
+    }
+
+    #b-1{
+        background-color: red;
+    }
+    #b-2{
+        background-color: blue;
+    }
+    #b-3{
+        background-color: green;
+    }
+</style>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam veniam ullam, ipsam quis necessitatibus, laborum quisquam alias odio atque accusamus eos debitis, minus doloribus temporibus sed possimus sunt perferendis itaque aut illo. Vero, error blanditiis quidem deserunt commodi iusto quaerat neque, sint quis ea dolores unde doloribus, facere velit obcaecati.
+    </div>
+
+    <div class="box1">
+
+    </div>
+
+    <div class="container">
+        <div class="b" id="b-1"></div>
+        <div class="b" id="b-2"></div>
+        <div class="b" id="b-3"></div>
+    </div>
+</body>
+</html>

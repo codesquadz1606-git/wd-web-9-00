@@ -1,0 +1,9 @@
+Hover Property : Mouse ko khii bhi point karengaa tab usma changes aana.
+Transition Property 
+Transform Property
+
+Flex & Grid
+flex works on one dimensional
+grid works on 2-D
+
+Flex: gap , justify-content , flexProperties.
