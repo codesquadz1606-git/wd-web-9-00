@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+    background-color: black;
+    color: white;
+}
+
+header{
+    /* background-color: red; */
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.navigation{
+    width: 50%;
+    margin: auto;
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navigation ul li{
+    display: inline;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.btns{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.btn{
+    border: none;
+    border-radius: 14px;
+    font-weight: bolder;
+}
+
+.btn1{
+    background-color: blue;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.btn2{
+    border: 2px solid white;
+    padding: 8px 20px;
+}
+
+
+.left{
+    width: 50%;
+    height: 505px;
+    /* background-color: blue; */
+    display: inline;
+
+    float: left;
+}
+
+.wrapper{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.wrapper h1{
+    width: 80%;
+    font-size: 3.7rem;
+}
+
+.wrapper p{
+    width: 80%;
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+.wrapper input,.sub{
+    width: 80%;
+    height: 50px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.wrapper input{
+    background-color: rgb(56, 54, 54);
+}
+
+.wrapper button{
+    background-color: blue;
+}
+
+.wrapper input::placeholder{
+    padding-left: 20px;
+}
+
+.wrapper .info{
+    margin-top: 10px;
+    font-size: 15px;
+    color: grey;
+}
+
+.right{
+    width: 50%;
+    height: 505px;
+    /* background-color: red; */
+    display: inline;
+
+    float: right;
+}
+
+.img-box{
+    width: 450px;
+    height: 400px;
+    border: 10px solid skyblue;
+
+    margin-top: 50px;
+    margin-left: 50px;
+
+    background-image: url(./bg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
