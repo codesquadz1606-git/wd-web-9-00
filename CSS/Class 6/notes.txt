@@ -1,0 +1,8 @@
+Animation
+
+Media Query : Used for responsive design.
+Breakpoints: 
+i.1480px to above (15.6 laptop and above)
+ii. 1260px to 1479px
+iii. 960px to 1259px 
+iv. 540px to 959px

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        background-color: black;
+    }
+
+    /* .box{
+        width: 200px ;
+        height: 200px;
+        background-color: red;
+
+        animation: moveBox 2s ease-in-out infinite;
+        position: relative;
+    }
+
+    @keyframes moveBox {
+        0%{
+            top: 0px;
+            left: 0px;
+            transform: rotate(0deg);
+            background-color: red;
+        }
+        25%{
+            top: 300px;
+            left: 0px;
+            transform: rotate(90deg);
+            background-color: yellow;
+        }
+        50%{
+            top: 300px;
+            left: 300px;
+            transform: rotate(180deg);
+            background-color: green;
+        }
+        75%{
+            top: 0px;
+            left: 300px;
+            transform: rotate(270deg);
+            background-color: blue;
+        }
+        100%{
+            top: 0px;
+            left: 0px;
+            transform: rotate(360deg);
+            background-color: red;
+        }
+    } */
+
+    .container {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .b {
+        width: 200px;
+        height: 350px;
+    }
+
+    .b1 {
+        background-color: green;
+    }
+
+    .b2 {
+        background-color: yellow;
+    }
+
+    .b3 {
+        background-color: blue;
+    }
+
+    .b4 {
+        background-color: white;
+    }
+
+
+    @media (min-width:1480px) {
+        .container {
+            gap: 150px;
+        }
+    }
+
+    @media (min-width:1260px) and (max-width:1479px) {
+        .container {
+            gap: 100px;
+        }
+    }
+
+    @media (min-width:960px) and (max-width:1259px) {
+        .container {
+            gap: 60px;
+        }
+    }
+
+    @media (min-width:540px) and (max-width:959px) {
+        .container {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .b {
+            width: 50%;
+
+        }
+    }
+
+    @media (max-width:539px) {
+        .container {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .b {
+            width: 90%;
+        }
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 40px;
+        position: sticky;
+        top: 0px;
+        color: white;
+    }
+
+    .logo {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .box {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+    }
+
+    .navigation ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .navigation ul li {
+        list-style: none;
+        font-size: 1.2rem;
+    }
+
+    .navigation ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navigation ul li a:hover {
+        color: blue;
+    }
+
+    .ham{
+        display: none;
+    }
+
+    @media (max-width:870px) {
+        .navigation ul{
+            display: none;
+        }
+
+        .navigation .ham{
+            display: block;
+        }
+    }
+</style>
+
+<body>
+    <!-- <div class="box"></div> -->
+
+    <!-- <div class="container">
+        <div class="b b1"></div>
+        <div class="b b2"></div>
+        <div class="b b3"></div>
+        <div class="b b4"></div>
+    </div> -->
+
+    <header>
+        <div class="logo">
+            <div class="box"></div>
+            <div class="title">
+                <span style="font-size: 2rem;
+                font-weight: bolder;">Harshit Thakur</span>
+                <span>/ UI DESGINER</span>
+            </div>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a style="color: blue;" href="../About Me/about.html">About Me</a></li>
+                <li><a href="../Resume/resume.html">Resume</a></li>
+                <li><a href="../Projects/project.html">Projects</a></li>
+                <li><a href="../Contact Us/contact.html">Contact Us</a></li>
+            </ul>
+
+            <div class="ham">
+                <img width="50px" src="menu.png" alt="">
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
