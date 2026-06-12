@@ -1,0 +1,26 @@
+Chapter 1 : Variable , Data Type , User Input & Type casting.
+
+What is variable?
+It ia container that stores some value at the memory.
+
+What is let var & const?
+these are the keywords that are use to create the variable.
+
+What is hoisting?
+
+What is data type?
+WHich type of data is stored in a variable.
+--> Number (int & float)
+--> String : Inside "".
+--> Boolean : true or false
+--> undefined
+--> Null : object
+
+What is user-input?
+Taking input from the user.
+prompt() : it stores data in String
+
+Typecasting : Changing the dat type of a variable.
+parseInt()
+parseFloat()
+
