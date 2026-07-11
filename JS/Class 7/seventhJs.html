@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // Object : A data in key & value pair.
+        // { key : value , keys.....}
+
+        // let obj={
+        //     name:"Satyam",
+        //     city:"Noida"
+        // }
+
+        // console.log(obj);
+
+        // How we can access the value of the object?
+        // Their are two methods 
+        // i. using obj.keyname
+        // ii. using obj[keyname]
+
+        // console.log(obj.name)
+        // console.log(obj["city"])
+
+        // // Array of objects
+        // let arrObj=[
+        //     {
+        //         name:"Ansh",
+        //         role:"User"
+        //     },
+        //     {
+        //         name:"Rohit",
+        //         role:"Manager"
+        //     },
+        //     {
+        //         name:"Pulkit",
+        //         role:"Admin"
+        //     }
+        // ]
+
+        // console.log(arrObj[1].role)
+
+        // Objects of objects
+        // let newObj={
+        //     name:"Kuldeep",
+        //     skills:{
+        //         skill1:"React",
+        //         skill2:"Node",
+        //         skill3:"Express"
+        //     }
+        // }
+
+        // console.log(newObj.skills.skill3)
+
+        // let obj={
+        //     name:"Ayush"
+        // };
+
+        // let key="name"
+        // console.log(obj.name)
+        // console.log(obj[key])
+        // console.log(obj["fname"])
+
+        // Destructing Array & Object
+        // In Array
+        // let newData = ["Ayush", "Mern", "Noida"];
+        // let [name, ...remain] = newData ; // Destructuring
+        // console.log(name)
+        // console.log(remain)
+
+
+        // In Object : It gets destructure according to their keyname
+        // let obj = {
+        //     name: "Satyam",
+        //     city: "Noida",
+        //     technology:"React"
+        // }
+
+        // let { name, city } = obj;
+        // let {technology , ...remain}=obj
+        // console.log(technology)
+        // console.log(remain)
+        // console.log(name, city)
+
+        let arr=[10,20,30,40,50,[100,200,300]];
+        // let copyarr=arr
+        // copyarr[3]=400
+
+        // console.log("Copy Array : ",copyarr)
+        // console.log("Orignal Array : ",arr)
+
+        // Shallow Copy & Deep Copy
+
+        // What is Shallow Copy? (Nested elemnts pa work nhii kartaa)
+        // Shallow copy duplicates only top-level properties of an object.
+        // let copyarr=[...arr];
+        // copyarr[3]=400
+        // copyarr[5][1]=2000
+
+        // console.log("Copy Array : ",copyarr)
+        // console.log("Orignal Array : ",arr)
+
+        // What is Deep Copy?
+        // let copyarr=structuredClone(arr); // Method 1 
+        // let copyarr=JSON.parse(JSON.stringify(arr)); // Method 2 : non-serialize data undefined , set ,...
+
+        import _ from 'lodash';
+        let copyarr=_.cloneDeep(arr)
+
+        copyarr[3]=400
+        copyarr[5][1]=2000
+
+        console.log("Copy Array : ",copyarr)
+        console.log("Orignal Array : ",arr)
+
+    </script>
+</body>
+
+</html>
