@@ -1,0 +1,6 @@
+What is Array?
+Array is a data structure which can be store any type of value , in continious memory location.
+
+Array works on zero-based indexing.
+0 sa start hogaa aur length-1 tkk jaygaa.
+arr[indexing]

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // let arr=["Ayush",10,20,30,true,undefined,null];
+        // console.log(arr)
+
+        // Loop
+        // Traversing
+        // for (let i=0;i<arr.length;i++){
+        //     console.log(arr[i])
+        // }
+
+        // for(let el of arr){ // el is temp variable
+        //     console.log(el)
+        // }
+
+        // Functions : push , pop , shift & unshift
+        // arr.push(20) // add at the end of the array.
+        // arr.pop() // remove from the end
+        // arr.shift() // remove from the starting
+        // arr.unshift(100); // add at the starting
+
+        // splice(startIdx,noOfDeletes,...elemnts to add) : add & remove from the center also.
+        // arr.splice(2,0,"Manashvi","Aditya","Nitin")
+
+        // sort , reverse , concat , join
+        let nums=[10,100,120,200,150,30,70,111];
+        // nums.sort() // this is not good sorting : It happens because all the elements are converted into the string.
+
+        // nums.sort((a,b)=>a-b); // ascending order
+        // nums.sort((a,b)=>b-a); // descending order
+
+        // Method Chaining : add multiple methods on a single chain.
+        // nums.sort((a,b)=>a-b).reverse();
+        // let names=["Ayush","Vaibhav","Aakash"]
+        // nums=nums.concat(names)
+
+        // join : Converts the array into the string.
+        // nums=nums.join("-")
+
+        // split: string ko array mae kartaa h
+        // let toArr=nums.split("-");
+
+        // console.log(nums)
+        // console.log(toArr)
+
+        // map(callback) , filter(callback) , reduce(callback) 
+
+        // What is callback?
+        // Callback is a function inside another function waiting for execution.
+
+        // map() : it is used to map all the elements.Work like a loop.But it only works on array.
+        // nums.map((el)=>{
+        //     console.log(el*5)
+        // })
+
+        // filter() : It filter out the match elements into new arr.
+        // let filtered=nums.filter((el)=> el%10===0 )
+        // let filtered=nums.filter((el)=>{ return el%10===0 })
+        // console.log(filtered)
+
+        // reduce(callback,acc) : It returns the single value of a array.Acc means it takes all the vvalue and return as the result.
+        // let sum=nums.reduce((acc,el)=>{
+        //     return acc+el
+        // },0)
+
+    </script>
+</body>
+</html>
