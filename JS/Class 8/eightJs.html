@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .para{
+        background-color: green;
+    }
+
+    .color{
+        color: red;
+    }
+</style>
+<body>
+    <!-- <div class="class" id="unique">This is Class 1</div>
+    <div class="class" id="unique">This is Class 2</div>
+    <div class="class" id="unique">This is Class 3</div> -->
+
+    <!-- <p class="para">
+        
+
+    </p>
+
+    <span class="question"></span>
+    <span class="answer"></span> -->
+
+    <h1 class="first">Hello</h1>
+
+    <h1 class="last">How are you?</h1>
+
+    <script>
+        // DOM : DOcument Object Model
+        // How to access any element?
+        // getElementByClassName(),getElementById(),getElementByTagName()
+
+        // let className=document.getElementsByClassName("class") // this returns an array to us.
+        // console.log(className[2])
+
+        // let tagName=document.getElementsByTagName("div") // this returns an array to us.
+        // console.log(tagName)
+
+        // let idName=document.getElementById("unique"); // it only selects first data not an array. 
+        // console.log(idName)
+
+        // querySelector(),querySelectorAll()
+        // tag bulana h
+        // let tagname=document.querySelector("div");
+        // console.log(tagname)
+        // let classname=document.querySelector(".class");
+        // console.log(classname)
+        // let idname=document.querySelector("#unique");
+        // console.log(idname)
+
+        // let allId=document.querySelectorAll("#unique"); // It will return all the related elements in the array.
+        // console.log(allId)
+
+        // How to change the content of any element?
+        // innerText , innerHTML
+
+        // let para = document.querySelector(".para");
+        // console.dir(para); // innerText & innerHtml
+
+        // para.innerText="<b>Hello , How's it going?</b>" // Here HTML Tag & text is considered as text.
+        // para.innerHTML="<b>Hello , How's it going?</b>" // here Tag is considered as tag & text as a text.
+
+        // para.innerHTML="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam aut accusamus molestiae quo laboriosam et, perspiciatis dolore quam ducimus esse fugiat possimus beatae, quidem nobis explicabo dolores maiores soluta repellat expedita aperiam eveniet magni? Quasi error magnam dignissimos voluptatum numquam placeat ratione velit aperiam soluta provident possimus ipsum perferendis voluptatibus reiciendis <b> saepe voluptates enim inventore, tempora pariatur blanditiis consequuntur deserunt rerum quisquam! Accusamus unde mollitia, ad non ab expedita fugit cupiditate tempore, voluptate autem nam odit error aspernatur.</b> Magni ullam eveniet eos explicabo labore aliquam asperiores beatae laborum deleniti vero consequuntur excepturi modi debitis ducimus, officiis magnam maxime repudiandae odio perspiciatis quisquam, temporibus dolor quidem. Maiores possimus molestiae esse laborum nobis nulla fugiat corrupti voluptatum, odio veritatis facere a temporibus voluptates cumque ipsa quas illo saepe dignissimos officia? Fuga possimus inventore iste quasi error amet voluptatem est voluptates ab illum quam mollitia quidem omnis in dolorem quaerat praesentium reprehenderit libero, sint nemo harum veritatis? Sapiente rem iusto rerum error reiciendis amet itaque voluptatibus nesciunt dolore cumque est sequi perferendis voluptate reprehenderit, eius ipsa dolorum quis qui, accusantium nihil suscipit dignissimos, sunt laudantium corrupti. Placeat a voluptatem et voluptatum ea officiis, beatae vero quas officia! A tempore commodi similique qui!"
+
+        // let ques=document.querySelector(".question")
+        // let ans=document.querySelector(".answer")
+
+        // ques.innerText="<b>"
+        // ans.innerHTML="<b>This is used for bold text</b>"
+
+        // How to add the styling in our HTML element?
+        // i. getter & setter
+        // getAttribute() & setAttribute() : This set the value in any attribute.
+        // console.log(para.getAttribute("class"))
+        // para.setAttribute("class","color") // it always overlaps the previous property.
+
+        // ii. style() : inline-css
+        // para.style.backgroundColor="blue"
+        // para.style.color="white"
+
+        // iii. classList : add , remove , toggle , contains
+        // para.classList.add("color")
+        // para.classList.remove("color") // false
+        // para.classList.toggle("color") // true
+        // para.classList.toggle("color") // false
+
+        // console.log(para.classList.contains("color"))
+
+        // How to create element in JS?
+        // .createElement("tagname")
+
+        let h1=document.createElement("h1")
+        h1.innerText="Ayush Kumar"
+        // append , prepend , appendChild(same as append) , insertAdajcentElement() : afterbegin , beforebegin , afterend , beforeend
+
+        // document.querySelector("body").append(h1) // adding at the end.
+        // document.querySelector("body").prepend(h1) // adding at the beginning.
+
+        document.querySelector(".first").insertAdjacentElement("beforebegin",h1)
+
+    </script> 
+</body>
+</html>
